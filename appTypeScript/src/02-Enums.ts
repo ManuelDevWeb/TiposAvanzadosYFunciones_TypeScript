@@ -1,13 +1,12 @@
 // Para ver el resultado de los logs (F1 + Quokka Start)
-// Cada bloque es una funcion anonima autoejecutable
 
-enum ROLES {
+export enum ROLES {
   ADMIN='admin',
   SELLER='seller',
   CUSTOMER='customer'
 }
 
-type User={
+export type User={
   username: string,
   role: ROLES
 }

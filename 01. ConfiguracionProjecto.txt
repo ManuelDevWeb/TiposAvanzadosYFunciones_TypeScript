@@ -1,0 +1,23 @@
+1. Crear la carpeta: appTypeScript
+
+2. Ir a gitignore.io, agregar Windows, linux, macOS, node y pegarlo en el archivo: .gitignore
+
+3. Crear el archivo: .editorconfig
+
+4. Ejecutar: npm init -y
+
+5. Instalar TypeScript: npm i typescript --save-dev
+
+6. Para crear el tsconfig, ejecutar: npx tsc --init
+
+7. Modificar el target o el destino de los archivos compilados, en el archivo 
+   tsconfig.json busca el flag “outDir” y modificala para que quede así: `"outDir": "./dist",`.
+   En el rootDir agregar "./src".
+
+8. Crear la carpeta: src
+
+9. Instalar la libreria ts-node, permite correr TypeScript del lado de node: npm i -D ts-node
+
+Nota -> Para ejecutar el archivo correr: npx ts-node src/demo.ts
+
+10. Instalar capacitor (Libreria para hacer aplicaciones multiplataformas, solo haremos un ejemplo): npm install @capacitor/camera
